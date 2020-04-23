@@ -1,6 +1,6 @@
 # Projetos Python
 
-- Códigos desenvolvidos durante meu processo de apredizagem da linguagem.
+- Códigos desenvolvidos durante meu processo de estudo da linguagem.
 
 - Códigos trabalhando com OpenCV. Tratamento de imagem.
 
