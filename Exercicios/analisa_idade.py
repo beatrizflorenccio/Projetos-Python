@@ -14,3 +14,5 @@ for id in range(1, 8):
 
 
 print("{} são maiores de idade e {} são menores de idade".format(maiores, menores))
+
+#curso de git
