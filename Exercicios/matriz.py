@@ -6,6 +6,7 @@ for l in range(0, 3):
     for c in range(0,3):
         matriz[l][c] = int(input(f'Digite o valor da posição {(c, l)}: '))
 
-print(f'{matriz[0]}')
-print(f'{matriz[1]}')
-print(f'{matriz[2]}')
+for obj in range(0, 3):
+    for i in range(0, 3):
+        print(f'[{matriz[obj][i]}]', end=' ')
+    print()    
