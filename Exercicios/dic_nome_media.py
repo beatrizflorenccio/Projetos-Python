@@ -1,3 +1,4 @@
+#Sistema com a situação de um aluno
 
 dados = {'Nome':input('Nome: '), 'Média':int(input('Média: '))}
 
