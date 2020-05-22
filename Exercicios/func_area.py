@@ -1,13 +1,13 @@
 #MaBe
+#Função que calcula a área de um terreno retangular
 
 def area(largura, comprimento):
     area = largura*comprimento
-    print(f'A área do terreno é {area}.')
+    print(f'A área do terreno é {area}m².')
 
 
-b = int(input('Largura [m]: '))
-h = int(input('Comprimento [m]: '))
+b = float(input('Largura [m]: '))
+h = float(input('Comprimento [m]: '))
 
 area = area(b, h)
 
-print(f'A área do de terreno é de {area}m2')
