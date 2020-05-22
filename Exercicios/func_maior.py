@@ -13,4 +13,4 @@ def maior(*int):
         print(f'O maior inteiro é {len(int)}')
     print('-'*50)
 
-maior()
+maior(0)
