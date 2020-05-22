@@ -7,21 +7,23 @@ def voto(ano=datetime.now().year):
     """
     :param ano: ano de nascimento
     """
-    id = datetime.now().year - ano
     s = ''
-    if id >= 18:
-        s = 'obrigatório'
+    global id 
+    id = datetime.now().year - ano
+    if 18<= id < 65:
+        s = f'Com {id} anos: voto obrigatório'
         return s
-    elif 16<= id <18:
-        s = 'opcional'
+        
+    elif 16<= id <18 or id>65:
+        s = f'Com {id} anos: voto opcional'
         return s
+    
     else:
-        s = 'negado'
+        s = f'Com {id} anos: não vota'
         return s
 
-v1 = voto(2018)
-v2 = voto(2002)
-v3 = voto()
-v4 =  voto(2003)
 
-print(f'As situação dos pedidos são: \n{v1} \n{v2} \n{v3} \n{v4}')
+
+id = 0
+v1 = voto(int(input('Ano de nascimento: ')))
+print(v1)
