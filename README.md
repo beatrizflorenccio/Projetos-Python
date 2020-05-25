@@ -6,8 +6,8 @@
 ## OpenCV
 - Trabalhando com OpenCV. Tratamento de imagem.
 
-# Haar Cascade
+## Haar Cascade
 - Códigos utilizados para o desenvolvimento do meu primeiro Haar Cascade.
 
-# Regex
+## Regex
 - Trabalhando com expressões regulares
