@@ -1,8 +1,7 @@
-#include <stdio.h>
+#include <stdio.h> //diretiva de pre-processamento
+#include <locale.h>
 
 void main() {
-    int add(int x, int y){
-        return (x + y);
-}
-
+    setlocale(LC_ALL, "Portuguese");
+    printf("C � \n\"SUPER\" \nf�cil! ");
 }
