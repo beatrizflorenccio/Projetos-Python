@@ -7,5 +7,9 @@ int soma(int n1, int n2) {
     //printf("O resultado e %d", resultado);
 }
 
-void main(){}
+void main(){
+    int s = soma(3, 5);
+
+    printf("soma = %d", s);
+}
 
